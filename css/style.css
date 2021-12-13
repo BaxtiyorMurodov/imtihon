@@ -563,7 +563,11 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .section-left-content {
+  display: flex;
+}
+.section-left-content input {
   width: 590px;
   height: 50px;
   background: #ffffff;
@@ -571,13 +575,11 @@ body {
   box-sizing: border-box;
   border-radius: 255px;
   margin: 0;
-  padding: 0;
-  text-align: right;
-  display: flex;
-  /* align-items: center; */
+  padding: 20px;
+  outline: none;
 }
 .section3-btn {
-  margin-right: auto;
+  margin-left: -115px;
   font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
